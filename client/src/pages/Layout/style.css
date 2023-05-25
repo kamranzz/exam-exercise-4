@@ -1,0 +1,55 @@
+.navbar {
+    background-color: rgba(0, 0, 0, 0.05) !important;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: background-color 1s ease-in-out !important;
+    z-index: 9999;
+}
+
+
+.navbar.scrolled {
+    background-color: rgba(0, 0, 0, 0.8) !important;
+}
+
+
+footer {
+    margin: 100px 0 0 0;
+    background: #1e1e1e;
+    padding: 60px 0 25px 0;
+    text-align: center;
+}
+footer .logo {
+    margin-bottom: 20px;
+}
+footer p {
+    color: #fff;
+    font-size: 15px;
+    margin-top: 50px;
+}
+footer ul li {
+    display: inline-block;
+    margin-top: 13px;
+}
+.fa {
+    display: inline-block;
+    font-size: inherit;
+    text-rendering: auto;
+}
+
+footer i{
+    color: white;
+    margin-left: 3rem;
+    margin-top: 20px;
+    transition: .3s;
+}
+
+.fa-heart{
+    font-size: 15px;
+    margin: 0 !important;
+}
+
+footer i:hover{
+    color: #d83d4d;
+}

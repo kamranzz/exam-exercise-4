@@ -1,0 +1,12 @@
+GET http://localhost:8080/api/cards
+
+###
+
+DELETE http://localhost:8080/api/cards/646f7825fdef6511c8ef1ce3
+
+###
+POST http://localhost:8080/api/cards
+Content-Type: application/json
+{
+    "title": "salam"
+}

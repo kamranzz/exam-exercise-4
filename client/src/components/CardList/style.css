@@ -1,0 +1,38 @@
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #f9f9ff;
+    overflow: hidden;
+}
+
+.no-border-card {
+    border: none;
+    background-color: #f9f9ff;
+    transition: .3s;
+}
+
+.blog-area {
+    background-color: #f9f9ff;
+}
+
+.salam {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border-color: #d73e4d;
+    border-style: solid;
+    transition: .3s;
+}
+
+.salam:hover{
+    background: #d73e4d;
+}
+i {
+    text-align: center;
+    font-size: 36px;
+    color: #292929;
+}
